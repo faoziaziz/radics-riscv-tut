@@ -3,7 +3,7 @@ Selamat Datang di Tutorial RISC-V
 
 Tutorial ini adalah pengantar komprehensif untuk memulai dengan risc-v.
 
-Contents:
+Daftar Isi:
 ----------
 
 .. toctree::
