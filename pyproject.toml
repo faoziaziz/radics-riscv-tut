@@ -3,6 +3,6 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "Radics Risc-V book"
+name = "radics-riscv-book"
 authors = [{name = "Aziz Faozi", email = "aziz.faozi@radicstech.com"}]
 dynamic = ["version", "description"]
