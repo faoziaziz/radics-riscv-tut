@@ -1,0 +1,28 @@
+# theme.toml
+[theme]
+name = "sphinx_book_theme"
+
+# Logo dan icon
+[theme.logo]
+image = "images/logo.png"  # Ganti dengan path logo kamu jika ada
+
+# Opsi warna
+[theme.color]
+primary = "#123456"  # Ganti dengan warna utama yang kamu inginkan
+secondary = "#654321"  # Ganti dengan warna sekunder yang kamu inginkan
+
+# Repository dan masalah
+[theme.repository]
+url = "https://github.com/executablebooks/sphinx-book-theme"  # Ganti dengan URL repositori Git kamu
+use_repository_button = true
+use_issues_button = true
+
+# Opsi untuk tampilan halaman
+[theme.navigation]
+use_index_button = true  # Menampilkan tombol untuk kembali ke halaman utama
+use_search_button = true  # Menampilkan tombol pencarian
+
+# Opsional: Pengaturan lainnya
+[theme.sidebar]
+use_full_width_sidebar = false
+
