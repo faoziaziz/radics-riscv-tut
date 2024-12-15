@@ -1,25 +1,14 @@
-.. include:: ../README.rst
+Selamat Datang di Tutorial RISC-V
+===========================
 
-Welcome to Lumache's documentation!
-===================================
+Tutorial ini adalah pengantar komprehensif untuk memulai dengan risc-v.
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
+Contents:
+----------
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
-   Home <self>
-   usage
-   api
+   pendahuluan.rst
+   arsitektur.rst
