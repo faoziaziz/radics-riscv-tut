@@ -26,6 +26,12 @@ kemudian recursive module
 
 .. code-block:: bash 
 
+    # ini harusnya code untuk recursive module 
+
+install dependency untuk membuild toolchainnya.
+
+.. code-block:: bash 
+
     sudo apt-get install autoconf automake autotools-dev curl python3 python3-pip libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev ninja-build git cmake libglib2.0-dev
 
 kemudian buat direktory untuk pembuatan crosscompilerna
