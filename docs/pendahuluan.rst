@@ -13,31 +13,35 @@ Struktur dari risc bisa kita bangun dengan menggunakan FPGA, sebenernya arsitekt
 sangat disarankan sekali untuk membangunnya dengan arsitektur RISC-V ini.
 
 
-## Install Beberapa pendukung
-```bash
-git clone https://github.com/riscv/riscv-gnu-toolchain
-```
+Install Beberapa pendukung
+-------------------------
+
+untuk lebih jelasnya kamu bisa ke `RiscvGit`_ untuk informasi lebih lanjut.
+.. code-block:: bash
+    git clone https://github.com/riscv/riscv-gnu-toolchain
+
 kemudian recursive module
-```bash 
- sudo apt-get install autoconf automake autotools-dev curl python3 python3-pip libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev ninja-build git cmake libglib2.0-dev
-```
+.. code-block:: bash 
+    sudo apt-get install autoconf automake autotools-dev curl python3 python3-pip libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev ninja-build git cmake libglib2.0-dev
+
 kemudian buat direktory untuk pembuatan crosscompilerna
-```bash 
-sudo mkdir -p /opt/riscv
-sudo chown faoziaziz:faoziaziz /opt/riscv
-```
+.. code-block:: bash 
+    sudo mkdir -p /opt/riscv
+    sudo chown faoziaziz:faoziaziz /opt/riscv
+
 ganti faoziaziz dengan username yang kalian punya 
 
-```bash
-./configure --prefix=/opt/riscv
-make
-```
+.. code-block:: bash
+    ./configure --prefix=/opt/riscv
+    make
+
 
 jika kalian ingin menggunakan multilib gunakan perintah berikut 
-```bash 
-make clean 
-./configure --prefix=/opt/riscv --enable-multilib
-make 
-```
-## Referensi
-1. [Toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain)
+.. code-block:: bash
+    make clean 
+    ./configure --prefix=/opt/riscv --enable-multilib
+    make 
+
+Referensi
+-------------
+.. _RiscvGit: https://github.com/riscv-collab/riscv-gnu-toolchain
