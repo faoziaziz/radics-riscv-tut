@@ -35,13 +35,42 @@ ganti faoziaziz dengan username yang kalian punya
     ./configure --prefix=/opt/riscv
     make
 
-
 jika kalian ingin menggunakan multilib gunakan perintah berikut 
+
 .. code-block:: bash
     make clean 
     ./configure --prefix=/opt/riscv --enable-multilib
     make 
 
-Referensi
--------------
+Code Block Syntax
+=================
+
+To include a bash code block in reST, use the following syntax:
+
+.. code-block:: bash
+
+   # This is a comment in bash
+   echo "Hello, World!"
+   ls -la
+
+Examples
+========
+
+Creating a Bash Script
+----------------------
+
+.. code-block:: bash
+
+   #!/bin/bash
+   # A simple bash script
+
+   echo "Starting the script..."
+
+   for i in {1..5}; do
+       echo "Count: $i"
+       sleep 1
+   done
+
+   echo "Script finished."
+
 .. _RiscvGit: https://github.com/riscv-collab/riscv-gnu-toolchain
