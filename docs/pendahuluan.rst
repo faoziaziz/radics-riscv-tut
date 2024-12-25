@@ -11,3 +11,19 @@ menjadi early-adopter. Iya ini adalah peluang untuk para periset, atau para pegi
 
 Struktur dari risc bisa kita bangun dengan menggunakan FPGA, sebenernya arsitekture ARM ataupun CISC lain juga bisa namun kita bisa mengakses astiektur dari RISC sehingga 
 sangat disarankan sekali untuk membangunnya dengan arsitektur RISC-V ini.
+
+
+## Install Beberapa pendukung
+```bash
+git clone https://github.com/riscv/riscv-gnu-toolchain
+```
+kemudian recursive module
+```bash 
+ sudo apt-get install autoconf automake autotools-dev curl python3 python3-pip libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev ninja-build git cmake libglib2.0-dev
+```
+```bash
+./configure --prefix=/opt/riscv
+make
+```
+## Referensi
+1. [Toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain)
